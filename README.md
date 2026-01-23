@@ -20,16 +20,16 @@ Base diffusion models struggle with unified facial expressions in anime art, par
 - Target: 50-60% perfect harmony after training
 
 ## Structure
-\`\`\`
+```text
 anime-facial-harmony-lab/
-├── generation/          # Image generation scripts
-├── evaluation/          # Harmony assessment tools
-├── finetuning/          # LoRA training scripts
-├── prompts/             # Structured prompt templates
-├── data/                # Dataset and annotations
-├── experiments/         # Generated images
-└── results/             # Evaluation notes and analysis
-\`\`\`
+├── generation/      # Image generation scripts
+├── evaluation/      # Harmony assessment tools
+├── finetuning/      # LoRA training scripts
+├── prompts/         # Structured prompt templates
+├── data/            # Dataset and annotations
+├── experiments/     # Generated images
+└── results/         # Evaluation notes and analysis
+```
 
 ## Status
 🔄 Active - Currently in dataset curation phase
