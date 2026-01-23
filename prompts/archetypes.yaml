@@ -1,0 +1,12 @@
+#dandere
+soft:
+  description: "gentle anime character, rounded eyes, relaxed facial tension"
+#kuudere
+stoic:
+  description: "cool anime character, narrow eyes, restrained expression"
+#genkigirl
+energetic:
+  description: "expressive anime character, wide eyes, dynamic face"
+#utsudere
+melancholic:
+  description: "sad anime character, drooping eyelids, subtle tension"

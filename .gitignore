@@ -1,0 +1,110 @@
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+ENV/
+*.egg-info/
+
+# ============================================
+# Jupyter Notebooks
+# ============================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ============================================
+# Model Files & Cache (DON'T PUSH!)
+# ============================================
+# Hugging Face cache
+.cache/
+huggingface_cache/
+
+# Downloaded models
+models/
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.onnx
+*.h5
+*.pb
+
+# LoRA weights
+finetuning/*.safetensors
+finetuning/*.ckpt
+
+# ============================================
+# Images & Datasets (DON'T PUSH!)
+# ============================================
+# Raw collected images
+data/raw/**/*.png
+data/raw/**/*.jpg
+data/raw/**/*.jpeg
+data/raw/**/*.webp
+
+# Curated images
+data/curated/**/*.png
+data/curated/**/*.jpg
+data/curated/**/*.jpeg
+
+# Generated images from experiments
+experiments/baseline/**/*.png
+experiments/baseline/**/*.jpg
+experiments/after_curation/**/*.png
+experiments/after_finetune/**/*.png
+
+# Grid visualizations
+results/grids/**/*.png
+results/grids/**/*.jpg
+
+# ============================================
+# Keep These Small Files (IMPORTANT!)
+# ============================================
+!data/annotations.csv
+!data/README.md
+!prompts/*.yaml
+!prompts/*.txt
+!generation/*.py
+!evaluation/*.py
+!finetuning/*.py
+!results/notes.md
+!results/*.md
+
+# ============================================
+# System & IDE Files
+# ============================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# ============================================
+# Temporary Files
+# ============================================
+*.log
+logs/
+*.tmp
+*.temp
+*.swp
+*~
+downloads/
+*.zip
